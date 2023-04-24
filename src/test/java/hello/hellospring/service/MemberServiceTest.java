@@ -21,7 +21,7 @@ class MemberServiceTest {
     }
     @AfterEach
     public void afterEach() {
-        memberService.clearStore();
+        memberRepository.clearStore();
     }
     @Test
     void 회원가입() {
